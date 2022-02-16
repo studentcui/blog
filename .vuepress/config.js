@@ -2,6 +2,7 @@ module.exports = {
   "title": "blog",
   "description": "",
   "dest": "public",
+  "base": "/blog/",
   "head": [
     [
       "link",
