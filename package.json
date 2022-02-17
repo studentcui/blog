@@ -1,16 +1,23 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
-    "deploy": "npm run build && gh-pages -d docs/.vuepress/dist"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studentcui/blog.git"
+  },
+  "author": "Yao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studentcui/blog/issues"
+  },
+  "homepage": "https://github.com/studentcui/blog#readme",
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "vuepress": "1.8.2",
-    "vuepress-theme-reco": "1.6.10"
-  },
-  "description": ""
+    "vuepress": "^1.9.7"
+  }
 }
