@@ -13,7 +13,7 @@ features: # 可选的
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 运维
-    details: ETL，运维相关技术
+    details: DevOps,运维相关技术
     link: /ui/
     imgUrl: /img/ui.png
   - title: 技术

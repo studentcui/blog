@@ -115,7 +115,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'studentcui/blog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -173,7 +173,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:83663028@qq.com',
         },
         {
           iconClass: 'icon-github',
@@ -190,9 +190,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'Yao | <a href="https://github.com/studentcui/blog/blob/main/vdoing/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 自定义hmtl(广告)模块
