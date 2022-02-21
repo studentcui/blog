@@ -10,11 +10,11 @@ tagline: 后端技术博客，积跬步以至千里，致敬每个爱学习的�
 features: # 可选的
   - title: 后端
     details: Java、Spring框架等后端技术
-    link: /web/ # 可选
+    link: /backend/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 运维
     details: DevOps,运维相关技术
-    link: /ui/
+    link: /devops/
     imgUrl: /img/ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
