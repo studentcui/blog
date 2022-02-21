@@ -27,49 +27,30 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '首页', link: '/' },
       {
         text: '后端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/backend/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: 'Java文章',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'toString()、String.valueOf、(String)强转', link: '/pages/a61298/' },
             ],
           },
           {
             text: '学习笔记',
             items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
               {
                 text: '《Git》',
                 link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
+              }
             ],
           },
         ],
       },
       {
         text: '运维',
-        link: '/ui/',
+        link: '/devops/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
         ],
       },
       {
@@ -296,23 +277,23 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 评论区
-    'vuepress-plugin-comment': {
-      choosen: 'gitalk',
-      options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
-        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-        title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-        body:
-          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
-    },
+    // 'vuepress-plugin-comment': {
+    //   choosen: 'gitalk',
+    //   options: {
+    //     clientID: 'a6e1355287947096b88b',
+    //     clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+    //     repo: 'blog-gitalk-comment', // GitHub 仓库
+    //     owner: 'xugaoyi', // GitHub仓库所有者
+    //     admin: ['xugaoyi'], // 对仓库有写权限的人
+    //     // distractionFreeMode: true,
+    //     pagerDirection: 'last', // 'first'正序 | 'last'倒序
+    //     id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+    //     title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+    //     labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+    //     body:
+    //       '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+    //   },
+    // },
 
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
