@@ -100,6 +100,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
+    docsBranch: 'main',
     editLinks: true, // 启用编辑
     editLinkText: '编辑',
 
