@@ -1,5 +1,5 @@
-## vuepress-theme-vdoing 博客
+## 我的个人博客
 
-克隆过来慢慢改
+主要内容是后端技术
 
-https://studentcui.github.io/blog/
+主题使用[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
