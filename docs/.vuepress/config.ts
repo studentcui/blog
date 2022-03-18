@@ -37,6 +37,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
+            text: '系统设计',
+            items: [
+              {text:'RESTful API',link:'/pages/83965d/'} 
+            ]
+          },
+          {
             text: '学习笔记',
             items: [
               {
