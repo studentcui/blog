@@ -54,9 +54,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '运维',
-        link: '/devops/',
+        text: '算法',
+        link: '/acm/',
         items: [
+          {
+            text: '题解',
+            link: '/solution/',
+          }
         ],
       },
       {

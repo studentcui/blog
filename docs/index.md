@@ -12,9 +12,9 @@ features: # 可选的
     details: Java、Spring框架等后端技术
     link: /backend/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: 运维
-    details: DevOps,运维相关技术
-    link: /devops/
+  - title: 算法
+    details: ACM，算法相关
+    link: /acm/
     imgUrl: /img/ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
